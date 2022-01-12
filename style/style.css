@@ -1,0 +1,581 @@
+/* header css */
+#hdesign
+{
+    background: linear-gradient(90deg, rgba(59,130,246,1) 0%, rgba(33,172,121,1) 100%);
+}
+.bg-color
+{
+    background: linear-gradient(90deg, rgba(59,130,246,1) 0%, rgba(33,172,121,1) 100%);
+    background-size: cover;
+}
+
+.bg-color1
+{
+    background: #f1f1f1;
+    background-size: cover;
+}
+.logo
+{
+    font-family: 'Licorice', cursive; 
+}
+@media only screen and (min-width: 475px)
+{
+    .logo
+    {
+        font-family: 'Licorice', cursive; 
+        font-size:50px; 
+        font-weight:500;
+    }
+    li.nav-item
+    {
+        margin-left: 25px;
+    }
+    .greeting-text
+    {
+        text-align: left;
+        padding-top: 90px;
+        padding-left: 100px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: white;
+        overflow: hidden;
+        margin-bottom: 0rem !important;
+    }
+
+    p.greeting-text
+    {
+        animation: 2s slide-right;
+    }
+
+    @keyframes slide-right {
+        from {
+          margin-left: -100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+    .about-me
+    {
+        font-size: 35px;
+        color: white;
+        padding-left: 100px;
+        padding-bottom: 0px !important;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800;
+    }
+    p.about-me
+    {
+        margin-bottom: 0rem !important;
+    }
+    .intro-text
+    {
+        font-size: 25px;
+        color: white;
+        font-family: 'Mulish', sans-serif;
+        padding-top: 0px !important;
+        padding-left: 100px;
+        font-weight: 500;
+    }
+
+    .social-icons
+    {
+        padding-top: 0px !important;
+        padding-left: 100px;
+        color: white;
+        padding-bottom: 25px;
+    }
+
+    .education-title
+    {
+        font-size: 37px;
+        color: black;
+        padding-left: 100px;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800;
+    }
+
+    .edu-desc
+    {
+        font-size: 22px;
+        color: black;
+        padding-left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+    }
+    .edu-name
+    {
+        font-size: 16px;
+        color: black;
+        padding-left: 133px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        
+    }
+
+    p.edu-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .experience-title
+    {
+        font-size: 37px;
+        color: white;
+        padding-left: 100px;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .exp-desc
+    {
+        font-size: 22px;
+        color: white;
+        padding-left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .exp-name
+    {
+        font-size: 16px;
+        color: white;
+        padding-left: 123px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.exp-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .exp-work
+    {
+        font-size: 16px;
+        color: white;
+        padding-left: 103px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    li
+    {
+        margin-bottom: 5px;
+    }
+
+    .certificate
+    {
+        font-size: 16px;
+        color: white;
+        padding-left: 130px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+
+    }
+    .certificate:hover
+    {
+        color: red !important;
+    }
+    .certificate a:hover
+    {
+        text-decoration: none;
+        color: red !important;
+        font-size: 20px;
+    }
+
+    .skills-title
+    {
+        font-size: 37px;
+        color: black;
+        padding-left: 100px;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .skills-desc
+    {
+        font-size: 22px;
+        color: black;
+        padding-left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .skills-name
+    {
+        font-size: 16px;
+        color: black;
+        padding-left: 123px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.skills-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .skills-work
+    {
+        font-size: 16px;
+        color: black;
+        padding-left: 103px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .dev-icons {
+        padding-left: 0;
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .software-skill-inline {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: Google Sans Regular;
+    }
+
+    .software-skills
+    {
+        margin-top: 70px;
+    }
+
+    /* project section*/
+    .project-title
+    {
+        font-size: 37px;
+        color: white;
+        padding-left: 100px;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .project-desc
+    {
+        font-size: 22px;
+        color: white;
+        padding-left: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .project-name
+    {
+        font-size: 16px;
+        color: white;
+        padding-left: 150px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.project-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .project-work
+    {
+        font-size: 16px;
+        color: white;
+        padding-left: 103px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .footer-text
+    {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        letter-spacing: 2px;
+        margin-bottom: 0rem !important;
+    }
+}
+@media only screen and (max-width: 475px)
+{
+    #hdesign
+    {
+        border-bottom: 1px solid black;
+    }
+    .logo
+    {
+        font-size:35px;
+    }
+    .greeting-text
+    {
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        color: white;
+        overflow: hidden;
+        margin-bottom: 0rem !important;
+    }
+    .about-me
+    {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        padding-bottom: 0px !important;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800;
+    }
+    p.about-me
+    {
+        margin-bottom: 0rem !important;
+    }
+    .intro-text
+    {
+        font-size: 20px;
+        color: white;
+        font-family: 'Mulish', sans-serif;
+        padding-top: 0px !important;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-weight: 500;
+    }
+
+    .social-icons
+    {
+        padding-top: 0px !important;
+        text-align: center;
+        color: white;
+        padding-bottom: 25px;
+    }
+    .education-title
+    {
+        font-size: 37px;
+        color: black;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800;
+    }
+
+    .edu-desc
+    {
+        font-size: 22px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+    }
+    .edu-name
+    {
+        font-size: 16px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        
+    }
+
+    p.edu-name
+    {
+        margin-top: 0rem !important;
+    }
+    .experience-title
+    {
+        font-size: 37px;
+        color: white;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .exp-desc
+    {
+        font-size: 22px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .exp-name
+    {
+        font-size: 16px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.exp-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .exp-work
+    {
+        font-size: 16px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    li
+    {
+        margin-bottom: 5px;
+    }
+
+    .certificate
+    {
+        font-size: 16px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+        padding-left: 20px;
+
+    }
+    .certificate:hover
+    {
+        color: red !important;
+    }
+    .certificate a:hover
+    {
+        text-decoration: none;
+        color: red !important;
+        font-size: 20px;
+    }
+    
+
+    .skills-title
+    {
+        font-size: 37px;
+        color: black;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .skills-desc
+    {
+        font-size: 22px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .skills-name
+    {
+        font-size: 16px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.skills-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .skills-work
+    {
+        font-size: 16px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .dev-icons {
+        padding-left: 0;
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .software-skill-inline {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: Google Sans Regular;
+    }
+
+    .software-skills
+    {
+        margin-top: 40px;
+    }
+
+    /* project section*/
+    .project-title
+    {
+        font-size: 37px;
+        color: white;
+        padding-top: 50px;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 800; 
+    }
+
+    .project-desc
+    {
+        font-size: 22px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        letter-spacing: 1px;
+    }
+    .project-name
+    {
+        font-size: 16px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        
+    }
+
+    p.project-name
+    {
+        margin-top: 0rem !important;
+    }
+
+    .project-work
+    {
+        font-size: 16px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .footer-text
+    {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        letter-spacing: 2px;
+        margin-bottom: 0rem !important;
+    }
+}
+/*header css end */
